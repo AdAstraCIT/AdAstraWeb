@@ -45,7 +45,7 @@
 		width: 100%;
 		height: 100%;
 		background-color: #666;
-		-webkit-mask: url(src/routes/r.svg) 50% 50% no-repeat;
-		mask: url(src/routes/r.svg) 50% 50% no-repeat;
+		-webkit-mask: url(https://ifsvivek.github.io/host/r.svg) 50% 50% no-repeat;
+		mask: url(https://ifsvivek.github.io/host/r.svg) 50% 50% no-repeat;
 	}
 </style>
