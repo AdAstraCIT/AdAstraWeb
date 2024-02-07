@@ -1,6 +1,10 @@
+<script>
+	import bg from '$lib/assets/bg.png';
+</script>
+
 <body
 	class="bg-black text-white bg-cover bg-no-repeat"
-	style="background-image: url('/src/routes/images/bg.png')"
+	style="background-image: url('{bg}')"
 ></body>
 <header>
 	<nav class="w-full flex justify-center items-center fixed top-5 z-50 font-thin tracking-widest">
