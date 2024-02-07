@@ -4,7 +4,7 @@
 ></body>
 <header>
 	<nav class="w-full flex justify-center items-center fixed top-5 z-50 font-thin tracking-widest">
-		<div class="backdrop-blur-xl w-[85%] h-14 flex justify-center px-10 items-center rounded-full bg-[#10101050] md:justify-between">
+		<div class="backdrop-blur-sm w-[85%] h-14 flex justify-center px-10 items-center rounded-full bg-[#10101050] md:justify-between">
 			<div class="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text">
 				<a href="/"class="font-mono text-transparent font-bold text-xl cursor-pointer">AD ASTRA</a>
 			</div>
