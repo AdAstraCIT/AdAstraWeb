@@ -1,1 +1,1 @@
-<p class="text-white "></p>
+<p class="text-white"></p>
