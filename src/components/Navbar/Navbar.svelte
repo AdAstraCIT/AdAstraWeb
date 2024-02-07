@@ -12,7 +12,7 @@
     height: 50px;
     font-family: 'Montserrat', sans-serif;
     color: #fff;    
-    backdrop-filter: blur(10px) brightness(75%) saturate(80%);
+    backdrop-filter: blur(5px) brightness(75%) saturate(80%);
     box-shadow: 10px 5px 10px 5px rgba(0, 0, 0, 0.2);
     margin-top: 20px;
     border-radius: 30px;
