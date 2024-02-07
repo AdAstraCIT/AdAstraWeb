@@ -1,5 +1,5 @@
 <script>
-
+  import Logo from '$lib/assets/Logo.png';
 </script>
   
   <style>
@@ -24,7 +24,7 @@
   
   <nav class="flex items-center justify-between px-20 navbar">
     <ul class="list-none mr-4">
-      <li><img alt="AdAstraLogo" class="logo-img" src="src/lib/images/Logo.png"/></li>
+      <li><img alt="AdAstraLogo" class="logo-img" src={Logo}/></li>
     </ul>
     <ul class="flex items-center ml-auto space-x-1">
       <li><a href="/about" class="px-4 py-2">About Us</a></li>

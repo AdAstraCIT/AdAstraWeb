@@ -5,7 +5,7 @@
 
 <body
 	class="bg-black text-white bg-cover bg-no-repeat"
-  style="background-image: url('src/lib/images/bg.png')"
+  style="background-image: url({bg})"
 ></body>
 <header>
 	<Navbar />
