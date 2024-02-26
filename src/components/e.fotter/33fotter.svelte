@@ -3,13 +3,13 @@
 </script>
 
 <div id="logo_part" class="mt-1">
-    <img id="logo" src={Logo} alt="" class="h-10 w-auto mt-6 mb-6 block mx-auto" />
+	<img id="logo" src={Logo} alt="" class="h-10 w-auto mt-6 mb-6 block mx-auto" />
 </div>
 
-<div id="footbar" class="flex flex-row justify-between items-center bg-gray-950 text-white p-3 mb-6 mx-10">
+<div id="footbar" class="flex flex-row justify-between items-center bg-gray-950 text-white p-4 mb-36 mx-24 rounded-full">
     <div class="flex items-center space-x-4">
-        <a href="https://twitter.com/adastracit" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter text-white"></i></a>
-        <a href="https://www.linkedin.com/company/adastracit/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin text-white"></i></a>
+        <a href="https://twitter.com/adastracit" target="_blank" rel="noopener noreferrer" class="bg-green-logo p-1 rounded-full"><img src="path_to_black_twitter_logo" alt="Twitter" /></a>
+        <a href="https://www.linkedin.com/company/adastracit/" target="_blank" rel="noopener noreferrer" class="bg-green-logo p-1 rounded-full"><img src="path_to_black_linkedin_logo" alt="LinkedIn" /></a>
         <i class="fas fa-envelope text-white"></i><span class="text-white">hello@example.com</span>
         <i class="fas fa-phone text-white"></i><span class="text-white">+91 00000 00000</span>
     </div>
