@@ -1,5 +1,5 @@
 <script>
-	import {Logo} from '$lib';
+	import { Logo } from '$lib';
 
 	let isOpen = false;
 
