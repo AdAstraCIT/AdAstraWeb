@@ -5,7 +5,7 @@
 	<div id="boxes" class="flex justify-between items-center mt-5">
 		<div
 			id="box1"
-			class="box w-1/3 h-72 bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 cursor-pointer bg-gray-700"
+			class="box w-1/3 h-72 bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 cursor-pointer"
 		>
 			<img
 				class="w-full h-full rounded-lg border border-white object-contain object-top filter brightness-80 transition-filter duration-500"
@@ -15,7 +15,7 @@
 		</div>
 		<div
 			id="box2"
-			class="box w-1/3 h-72 bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 cursor-pointer bg-gray-700"
+			class="box w-1/3 h-72 bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 cursor-pointer"
 		>
 			<img
 				class="w-full h-full rounded-lg border border-white object-contain object-top filter brightness-80 transition-filter duration-500"
@@ -25,7 +25,7 @@
 		</div>
 		<div
 			id="box3"
-			class="box w-1/3 h-72 bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 cursor-pointer bg-gray-700"
+			class="box w-1/3 h-72 bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 cursor-pointer"
 		>
 			<img
 				class="w-full h-full rounded-lg border border-white object-contain object-top filter brightness-80 transition-filter duration-500"

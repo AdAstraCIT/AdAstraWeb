@@ -28,11 +28,3 @@
     </div>
     </div>
     
-    <div class="register mt-6 mx-10 bg-black text-white rounded-lg p-18 text-left text-3xl flex">
-        <div id="hedding">
-            <h1 class="text-7xl">Start your journey with</h1> 
-            <h2 class="text-7xl text-yellow-400">Ad Astra today!</h2>
-            <p class="mt-2 mb-2 w-7/10 text-gray-500"> background needs to be changed ! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat corporis perspiciatis quis odit provident ipsam dignissimos dicta iusto voluptatum! Earum dolorem sed tempora veniam natus expedita repudiandae dicta reiciendis eius.</p>
-        </div>
-        <div id="button" class="flex flex-row items-center"><button class="float-right px-2 py-1 rounded-full bg-green-logo text-black font-bold text-sm cursor-pointer self-center">Register</button></div>
-    </div>

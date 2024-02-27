@@ -1,5 +1,5 @@
 <script>
-	import { Logo, twitter, linkedin, email, phone } from '$lib/assets/index.js';
+	import { Logo, twitter, linkedin, email, phone } from '$lib';
 </script>
 
 <div id="logo_part" class="mt-1">

@@ -1,5 +1,5 @@
 <script>
-	import Logo from '$lib/assets/Logo.png';
+	import {Logo} from '$lib';
 
 	let isOpen = false;
 
