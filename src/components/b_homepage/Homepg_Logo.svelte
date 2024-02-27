@@ -1,21 +1,20 @@
 <script>
-	import Logo from '$lib/assets/Logo.png';
-	import video from '$lib/assets/vid.mp4';
+import { Logo, video } from '$lib/assets/index.js';
 </script>
 
 <div class="flex justify-center items-center h-screen">
-	<video
-		src={video}
-		autoplay
-		muted
-		loop
-		playsinline
-		class="fixed top-0 left-0 w-full h-full object-cover z-[-1]"
-	/>
-	<img class="w-full sm:w-auto max-w-xs sm:max-w-full" src={Logo} alt="ad_astra_Logo" />
+    <video
+        src={video}
+        autoplay
+        muted
+        loop
+        playsinline
+        class="fixed top-0 left-0 w-full h-full object-cover z-[-1]"
+    />
+    <img class="w-full sm:w-auto max-w-xs sm:max-w-full relative mx-auto" src={Logo} alt="ad_astra_Logo" />
 </div>
 
-<div class="mx-5 mt-80 flex justify-between items-center">
+<div class="mx-5 mt-80 flex justify-between items-center ">
 	<div>
 		<h1 class="text-7xl">what is Ad Astra?</h1>
 		<p class="text-3xl text-gray-500 mt-2 w-1/2">
