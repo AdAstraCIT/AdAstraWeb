@@ -8,7 +8,7 @@
 
 <div
 	id="footbar"
-	class="flex flex-row justify-between items-center bg-gray-950 text-white p-4 mb-36 mx-24 rounded-full"
+	class="flex flex-row justify-between items-center bg-gray-950 text-white p-2 mb-36 mx-24 rounded-full"
 >
 	<div class="flex items-center space-x-4">
 		<a
@@ -23,12 +23,14 @@
 			rel="noopener noreferrer"
 			class="p-1 rounded-full"><img src={linkedin} alt="LinkedIn" /></a
 		>
-		<i class="text-white"><img src={email} alt="Email" /></i><span class="text-white"
-			>hello@example.com</span
-		>
-		<i class="text-white"><img src={phone} alt="phone" /></i><span class="text-white"
-			>+91 00000 00000</span
-		>
+		<div class="hidden md:flex items-center space-x-4">
+			<i class="text-white"><img src={email} alt="Email" /></i><span class="text-white"
+				>hello@example.com</span
+			>
+			<i class="text-white"><img src={phone} alt="phone" /></i><span class="text-white"
+				>+91 00000 00000</span
+			>
+		</div>
 	</div>
 	<ul class="flex items-center ms-auto space-x-2">
 		<li><a href="/Privacy" class="px-1 py-2 hover:text-gray-300">Privacy Policy</a></li>

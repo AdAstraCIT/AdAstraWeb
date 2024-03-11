@@ -1,7 +1,7 @@
 <script>
-	import { NewEvents, PastEvents, Register } from '../components/components.js';
+	import { NewEvents, PastEvents, Register, HomePage } from '../components/components.js';
 </script>
-
+<HomePage />
 <NewEvents />
 <PastEvents />
 <Register />

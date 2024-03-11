@@ -1,5 +1,5 @@
 <script>
-	import { HomePage, Navbar, Footer } from '../components/components.js';
+	import { Background, Navbar, Footer } from '../components/components.js';
 	import { bg } from '$lib';
 </script>
 
@@ -7,6 +7,6 @@
 <header>
 	<Navbar />
 </header>
-<HomePage />
 <slot />
+<Background/>
 <Footer />

@@ -1,21 +1,13 @@
 <script>
-	import { Logo, video } from '$lib';
+	import { Logo,} from '$lib';
 </script>
 
 <div class="flex justify-center items-center h-screen">
-	<video
-		src={video}
-		autoplay
-		muted
-		loop
-		playsinline
-		class="fixed top-0 left-0 w-full h-full object-cover z-[-1]"
-	/>
-	<img
-		class="sm:flex-1 md:flex-none md:w-auto mx-auto self-center"
-		src={Logo}
-		alt="ad_astra_Logo"
-	/>
+		<img
+			class="sm:flex-1 md:flex-none md:w-auto mx-auto self-center"
+			src={Logo}
+			alt="ad_astra_Logo"
+		/>
 </div>
 
 <div class="mx-5 mt-80 flex justify-between items-center">
