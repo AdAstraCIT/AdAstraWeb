@@ -15,7 +15,7 @@
 
 <div
 	id="footbar"
-	class="flex flex-row justify-between items-center bg-gray-950 text-white p-2 mt-10 mb-36 mx-24 rounded-full"
+	class="flex flex-row justify-between items-center bg-zinc-900 border-neutral-800 text-white p-2 mt-10 mb-36 mx-24 rounded-full"
 >
 	<div class="flex items-center space-x-4">
 		<a
