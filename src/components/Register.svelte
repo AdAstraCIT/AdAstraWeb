@@ -9,7 +9,7 @@
 	<section class="flex gap-5 max-md:flex-col max-md:gap-0">
 		<div class="flex flex-col w-[86%] max-md:ml-0 max-md:w-full">
 			<article class="flex flex-col max-md:mt-10 max-md:max-w-full">
-				<h1 class="text-4xl text-[#CAFF33] leading-[60px] max-md:max-w-full">
+				<h1 class="text-4xl text-white leading-[60px] max-md:max-w-full">
 					Start your journey with <span class="text-[#CAFF33]">Ad Astra today!</span>
 				</h1>
 				<p class="mt-3.5 text-lg font-light leading-7 text-zinc-400 max-md:max-w-full">
