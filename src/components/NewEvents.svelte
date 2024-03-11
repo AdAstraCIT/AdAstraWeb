@@ -1,7 +1,9 @@
 <!-- 33 is a random number just for the sake of naming -->
 
-<div id="uc_events" class="mx-5 mb-64">
-	<h1 class="text-7xl">Upcoming Events</h1>
+<div id="uc_events" class="mx-20 mb-64">
+	<div class="mt-20 text-3xl font-medium leading-10 text-white max-md:mt-10 max-md:max-w-full">
+		Upcoming Events
+	</div>
 	<div id="boxes" class="flex justify-between items-center mt-5">
 		<div
 			id="box1"

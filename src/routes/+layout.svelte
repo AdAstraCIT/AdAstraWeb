@@ -8,5 +8,5 @@
 	<Navbar />
 </header>
 <slot />
-<Background/>
+
 <Footer />

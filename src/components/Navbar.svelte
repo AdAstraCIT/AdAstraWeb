@@ -9,7 +9,7 @@
 </script>
 
 <nav
-	class="flex items-center justify-between px-10 backdrop-blur-md backdrop-brightness-75 backdrop-saturate-150 shadow-lg mt-6 rounded-full w-11/12 fixed left-1/2 transform -translate-x-1/2 h-12"
+	class="z-50 flex items-center justify-between px-10 backdrop-blur-md backdrop-brightness-75 backdrop-saturate-150 shadow-lg mt-6 rounded-full w-11/12 fixed left-1/2 transform -translate-x-1/2 h-12"
 >
 	<a href="/" class="md:hidden w-full text-center"
 		><img alt="AdAstraLogo" class="h-5 w-auto mx-auto" src={Logo} /></a
