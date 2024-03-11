@@ -1,8 +1,8 @@
 <script>
-	import { EventBg5, EventBg6, EventBg7 } from '$lib';
+	import { EventBg5, EventBg6, EventBg7, Between } from '$lib';
 </script>
 
-<div class="mx-20 mb-64">
+<div class="mx-20 mb-10">
 	<div class="mt-20 text-3xl font-medium leading-10 text-white max-md:mt-10 max-md:max-w-full">
 		Upcoming Events
 	</div>
@@ -25,6 +25,15 @@
 			<img
 				class="w-full h-full rounded-lg border object-contain object-top duration-500"
 				src={EventBg7}
+				alt=""
+			/>
+		</div>
+	</div>
+	<div class="flex justify-center items-center">
+		<div class="box w-full rounded-lg shadow-lg overflow-hidden duration-500 cursor-pointer">
+			<img
+				class="w-full h-full rounded-lg object-contain object-top duration-500"
+				src={Between}
 				alt=""
 			/>
 		</div>

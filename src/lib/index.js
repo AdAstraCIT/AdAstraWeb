@@ -15,3 +15,4 @@ export { default as EventBg5} from './assets/Events/image5.png';
 export { default as EventBg6} from './assets/Events/image6.png';
 export { default as EventBg7} from './assets/Events/image7.png';
 export { default as something} from './assets/something.png';
+export { default as Between} from './assets/Between.png';
