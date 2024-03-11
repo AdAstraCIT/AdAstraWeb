@@ -6,9 +6,13 @@
 	class="register mt-6 mx-24 text-white rounded-xl p-18 text-left text-3xl flex bg-black"
 	style="background: url({RegisterBg}) no-repeat center center / cover;"
 >
-	<div id="hedding" class="mx-16 mt-24 mb-24">
-		<h1 class="text-7xl">Start your journey with</h1>
-		<h2 class="text-7xl text-green-logo">Ad Astra today!</h2>
+<div id="hedding" class="mx-16 mt-24 mb-24">
+    <h1 class="text-7xl">Start your journey with</h1>
+    <div class="flex flex-row items-center">
+        <h2 class="text-7xl text-green-logo mr-4">Ad Astra</h2>
+        <h1 class="text-7xl">today!</h1>
+    </div>
+
 		<p class="mt-2 mb-2 w-7/10 text-gray-500">
 			background needs to be changed ! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 			Repellat corporis perspiciatis quis odit provident ipsam dignissimos dicta iusto voluptatum!
