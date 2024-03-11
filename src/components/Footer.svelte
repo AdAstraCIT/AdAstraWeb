@@ -2,13 +2,20 @@
 	import { Logo, twitter, linkedin, email, phone } from '$lib';
 </script>
 
+<div
+	class="self-stretch mt-9 w-full border border-solid bg-neutral-800 border-neutral-800 min-h-[1px] max-md:max-w-full"
+></div>
+
 <div id="logo_part" class="mt-1">
 	<img id="logo" src={Logo} alt="" class="h-16 w-auto mt-24 mb-24 block mx-auto" />
 </div>
+<div
+	class="shrink-0 mt-20 max-w-full h-px border border-solid bg-neutral-800 border-neutral-800 w-[1116px] max-md:mt-10 mx-auto"
+></div>
 
 <div
 	id="footbar"
-	class="flex flex-row justify-between items-center bg-gray-950 text-white p-2 mb-36 mx-24 rounded-full"
+	class="flex flex-row justify-between items-center bg-gray-950 text-white p-2 mt-10 mb-36 mx-24 rounded-full"
 >
 	<div class="flex items-center space-x-4">
 		<a
