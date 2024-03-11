@@ -9,7 +9,7 @@
 <div id="hedding" class="mx-16 mt-24 mb-24">
     <h1 class="text-7xl">Start your journey with</h1>
     <div class="flex flex-row items-center">
-        <h2 class="text-7xl text-green-logo mr-4">Ad Astra</h2>
+        <h2 class="text-7xl text-[#CAFF33] mr-4">Ad Astra</h2>
         <h1 class="text-7xl">today!</h1>
     </div>
 
@@ -21,19 +21,8 @@
 	</div>
 	<div id="button" class="flex flex-row items-center">
 		<button
-			class="float-right px-2 py-1 rounded-full bg-green-logo text-black font-bold text-sm cursor-pointer self-center"
+			class="float-right px-2 py-1 rounded-full bg-[#CAFF33] text-black font-bold text-sm cursor-pointer self-center"
 			>Register</button
 		>
 	</div>
 </div>
-
-<style>
-	.bg-green-logo {
-		--tw-bg-opacity: 1;
-		background-color: rgb(202 255 51 / var(--tw-bg-opacity));
-	}
-	.text-green-logo {
-		--tw-text-opacity: 1;
-		color: rgb(202 255 51 / var(--tw-text-opacity));
-	}
-</style>
