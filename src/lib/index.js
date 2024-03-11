@@ -11,4 +11,7 @@ export { default as EventBg1} from './assets/Events/image1.png';
 export { default as EventBg2} from './assets/Events/image2.png';
 export { default as EventBg3} from './assets/Events/image3.png';
 export { default as EventBg4} from './assets/Events/image4.png';
+export { default as EventBg5} from './assets/Events/image5.png';
+export { default as EventBg6} from './assets/Events/image6.png';
+export { default as EventBg7} from './assets/Events/image7.png';
 export { default as something} from './assets/something.png';
