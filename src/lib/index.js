@@ -7,3 +7,4 @@ export { default as bg } from './assets/bg.png';
 export { default as email } from './assets/email.svg';
 export { default as phone } from './assets/phone.svg';
 export { default as RegisterBg} from './assets/registerbg.svg';
+export { default as EventBg} from './assets/Events/OIP.jpeg';
