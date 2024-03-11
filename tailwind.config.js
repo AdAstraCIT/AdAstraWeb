@@ -2,11 +2,7 @@
 export default {
   content: [],
   theme: {
-    extend: {
-      colors: {
-        'green-logo': '#caff33',
-      },
-    },
+
   },
   plugins: [],
 }

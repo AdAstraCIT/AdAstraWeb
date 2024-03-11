@@ -22,3 +22,14 @@
 		>
 	</div>
 </div>
+
+<style>
+	.bg-green-logo {
+		--tw-bg-opacity: 1;
+		background-color: rgb(202 255 51 / var(--tw-bg-opacity));
+	}
+	.text-green-logo {
+		--tw-text-opacity: 1;
+		color: rgb(202 255 51 / var(--tw-text-opacity));
+	}
+</style>
