@@ -1,6 +1,6 @@
 <script>
-	import { Logo, something, infinity } from '$lib';
-	import Background from './Background.svelte';
+	import { Logo, something } from '$lib';
+	import { Background, Infinity } from './components.js';
 </script>
 
 <div class="flex justify-center items-center h-screen">
@@ -23,7 +23,7 @@
 					</div>
 				</div>
 				<div>
-					<img loading="lazy" src={infinity} alt="" class="grow w-full" />
+					<Infinity />
 				</div>
 			</div>
 		</div>
