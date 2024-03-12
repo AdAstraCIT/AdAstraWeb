@@ -35,9 +35,9 @@
 				<img class="text-white mx-3" src={email} alt="Email icon" />
 				<span class="text-white">adastra@cambridge.edu.in</span>
 			</a>
-			<a href="tel:+910000000000">
+			<a href="tel:+910000000000" class="inline-flex">
 				<img src={phone} alt="Phone icon" />
-				<span class="text-white">+91 00000 00000</span>
+				<span class="text-white mx-3">+91 00000 00000</span>
 			</a>
 		</div>
 	</div>
