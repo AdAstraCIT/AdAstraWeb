@@ -2,16 +2,16 @@
 	import { Logo, something } from '$lib';
 </script>
 
-<div class="flex justify-center items-center h-screen">
-	<img
-		class="sm:flex-1 md:flex-none md:w-auto mx-auto self-center"
-		src={Logo}
-		alt="ad_astra_Logo"
-	/>
+<div class= "flex justify-center items-center h-screen">
+    <img
+        class= "max-sm:w-64 md:w-128 mx-auto self-center"
+        src={Logo}
+        alt="ad_astra_Logo"
+    />
 </div>
 
-<div class="mx-20 mt-80 flex justify-between items-center">
-	<div class="mt-96 max-md:mt-10 max-md:max-w-full">
+<div class="mx-20 flex justify-between items-center">
+	<div class="mt- max-md:mt-10 max-md:max-w-full">
 		<div class="flex gap-5 max-md:flex-col max-md:gap-0">
 			<div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
 				<div class="flex flex-col grow max-md:mt-10 max-md:max-w-full">

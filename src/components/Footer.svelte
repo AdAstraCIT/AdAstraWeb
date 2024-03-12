@@ -39,7 +39,7 @@
 			>
 		</div>
 	</div>
-	<ul class="flex items-center ms-auto space-x-2">
+	<ul class="flex items-center ms-auto space-x-2 mr-4">
 		<li><a href="/Privacy" class="px-1 py-2 hover:text-gray-300">Privacy Policy</a></li>
 		<li><span class="text-gray-400 px-2">|</span></li>
 		<li><a href="/tos" class="px-1 py-2 hover:text-gray-300">Terms of Service</a></li>
