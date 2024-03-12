@@ -31,9 +31,8 @@
 			class="p-1 rounded-full"><img src={linkedin} alt="LinkedIn" /></a
 		>
 		<div class="hidden md:flex items-center space-x-4">
-			<i class="text-white"><img src={email} alt="Email" /></i><span class="text-white"
-				>hello@example.com</span
-			>
+			<a class="text-sm" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMGRKfjTRQtXZjKdxclMJbLRxnVSNwgSZSBTSRbGPvvpSJvsrKmvMFpBRlZzSTqpsDFJfj"><i class="text-white" ><img src={email} alt="Email" /></i><span class="text-white"
+				>adastra@cambridge.edu.in</span></a>
 			<i class="text-white"><img src={phone} alt="phone" /></i><span class="text-white"
 				>+91 00000 00000</span
 			>

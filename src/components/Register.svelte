@@ -21,7 +21,7 @@
 		</div>
 		<div class="flex flex-col ml-5 w-[14%] max-md:ml-0 max-md:w-full">
 			<button
-				class="justify-center self-stretch px-8 py-5 my-auto w-full text-lg leading-7 whitespace-nowrap bg-[#CAFF33] rounded-[82px] text-zinc-900 max-md:px-5 max-md:mt-10"
+				class="justify-center self-stretch px-8 py-3 my-auto w-full text-lg font-bold leading-7 whitespace-nowrap bg-[#CAFF33] rounded-[82px] text-zinc-900 max-md:px-5 max-md:mt-10"
 				type="button">Register</button
 			>
 		</div>
