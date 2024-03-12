@@ -2,7 +2,7 @@
 	import { EventBg1, EventBg2, EventBg3, EventBg4 } from '$lib';
 </script>
 
-<div class="flex flex-col px-5 mt-4 w-full max-w-[1206px] max-md:max-w-full ">
+<div class="flex flex-col px-5 mt-4 w-full max-w-[1206px] max-md:max-w-full mx-auto">
 	<div class="text-3xl font-medium leading-10 text-white max-md:max-w-full">Past Events</div>
 	<div class="mt-10 max-md:max-w-full">
 		<div class="flex gap-5 max-md:flex-col max-md:gap-0">

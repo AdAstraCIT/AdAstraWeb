@@ -1,20 +1,17 @@
 <script>
-	import { Logo, something } from '$lib';
+	import { Logo, something, infinity } from '$lib';
+	import Background from './Background.svelte';
 </script>
 
-<div class= "flex justify-center items-center h-screen">
-    <img
-        class= "max-sm:w-64 md:w-128 mx-auto self-center"
-        src={Logo}
-        alt="ad_astra_Logo"
-    />
+<div class="flex justify-center items-center h-screen">
+	<img class="max-sm:w-64 md:w-128 mx-auto self-center" src={Logo} alt="ad_astra_Logo" />
+	<Background />
 </div>
-
 <div class="mx-20 flex justify-between items-center">
 	<div class="mt-64 max-md:mt-10 max-md:max-w-full">
 		<div class="flex gap-5 max-md:flex-col max-md:gap-0">
-			<div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-				<div class="flex flex-col grow max-md:mt-10 max-md:max-w-full">
+			<div class="flex flex-row w-full max-md:ml-0 max-md:w-full">
+				<div class="flex flex-col w-6/12 max-md:mt-10 max-md:max-w-full">
 					<div class="text-4xl font-medium leading-10 text-white max-md:max-w-full">
 						What is Ad Astra?
 					</div>
@@ -25,30 +22,10 @@
 						for use in a type specimen book. It usually begins with:
 					</div>
 				</div>
+				<div>
+					<img loading="lazy" src={infinity} alt="" class="grow w-full" />
+				</div>
 			</div>
-			<!-- 
-			<div class="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
-				<svg
-					class="infinity-loop"
-					xmlns="http://www.w3.org/2000/svg"
-					viewBox="0 0 24 24"
-					fill="none"
-					stroke="currentColor"
-					stroke-width="2"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					width="500"
-					height="500"
-				>
-					<path
-						d="M4.4 1c1.8 0 3.6.6 5 1.7l2.3 1.5 2.3-1.5a7 7 0 0 1 10 0l2.3 1.5-2.3 1.5a7 7 0 0 1-10 0l-2.3-1.5-2.3 1.5a7 7 0 0 1-10 0L2 4.7a7 7 0 0 1 2.4-3.7z"
-					></path>
-					<path
-						d="M9.6 22.3a7 7 0 0 1-5-1.7l-2.3-1.5 2.3-1.5a7 7 0 0 1 10 0l2.3 1.5 2.3-1.5a7 7 0 0 1 5 1.7l2.3 1.5-2.3 1.5a7 7 0 0 1-5 1.7l-2.3-1.5-2.3 1.5z"
-					></path>
-				</svg>
-			</div>
-			 -->
 		</div>
 	</div>
 </div>
@@ -78,20 +55,3 @@
 		</aside>
 	</div>
 </section>
-
-<style>
-	@keyframes rotate {
-		0% {
-			transform: rotate(0deg);
-		}
-		100% {
-			transform: rotate(360deg);
-		}
-	}
-
-	.infinity-loop {
-		animation: rotate 2s linear infinite;
-		fill: green;
-		margin-right: 20rem; /* Adjust this value as needed */
-	}
-</style>

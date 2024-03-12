@@ -31,11 +31,14 @@
 			class="p-1 rounded-full"><img src={linkedin} alt="LinkedIn" /></a
 		>
 		<div class="hidden md:flex items-center space-x-4">
-			<a class="text-sm" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMGRKfjTRQtXZjKdxclMJbLRxnVSNwgSZSBTSRbGPvvpSJvsrKmvMFpBRlZzSTqpsDFJfj"><i class="text-white" ><img src={email} alt="Email" /></i><span class="text-white"
-				>adastra@cambridge.edu.in</span></a>
-			<i class="text-white"><img src={phone} alt="phone" /></i><span class="text-white"
-				>+91 00000 00000</span
-			>
+			<a class="text-sm inline-flex" href="mailto:adastra@cambridge.edu.in">
+				<img class="text-white mx-3" src={email} alt="Email icon" />
+				<span class="text-white">adastra@cambridge.edu.in</span>
+			</a>
+			<a href="tel:+910000000000">
+				<img src={phone} alt="Phone icon" />
+				<span class="text-white">+91 00000 00000</span>
+			</a>
 		</div>
 	</div>
 	<ul class="flex items-center ms-auto space-x-2 mr-4">
