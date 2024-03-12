@@ -11,7 +11,7 @@
 </div>
 
 <div class="mx-20 flex justify-between items-center">
-	<div class="mt- max-md:mt-10 max-md:max-w-full">
+	<div class="mt-64 max-md:mt-10 max-md:max-w-full">
 		<div class="flex gap-5 max-md:flex-col max-md:gap-0">
 			<div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
 				<div class="flex flex-col grow max-md:mt-10 max-md:max-w-full">
