@@ -1,10 +1,10 @@
 <script>
-    import { video } from '$lib';
+    import { vid } from '$lib';
 </script>
 
 <div class="flex justify-center items-center h-screen">
     <video
-        src="lib/assets/vid.mp4"
+        src={vid}
         autoplay
         muted
         loop
