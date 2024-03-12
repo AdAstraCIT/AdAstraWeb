@@ -4,7 +4,7 @@
 
 <div class="flex justify-center items-center h-screen">
     <video
-        src={video}
+        src={lib/assets/vid.mp4}
         autoplay
         muted
         loop
