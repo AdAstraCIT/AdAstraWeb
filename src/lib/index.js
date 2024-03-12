@@ -16,7 +16,7 @@ export { default as EventBg6} from './assets/Events/image6.png';
 export { default as EventBg7} from './assets/Events/image7.png';
 export { default as something} from './assets/something.png';
 export { default as Between} from './assets/Between.png';
-export { default as back1} from './assets/back1.png';
+export { default as back1} from './assets/back1.comp.png';
 export { default as back2} from './assets/back2.png';
 export { default as back3} from './assets/back3.svg';
 export { default as infinity} from './assets/Infinity.svg';
