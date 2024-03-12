@@ -26,6 +26,7 @@
 					</div>
 				</div>
 			</div>
+			<!-- 
 			<div class="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
 				<svg
 					class="infinity-loop"
@@ -47,6 +48,7 @@
 					></path>
 				</svg>
 			</div>
+			 -->
 		</div>
 	</div>
 </div>

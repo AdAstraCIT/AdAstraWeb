@@ -2,7 +2,7 @@
 	import { EventBg5, EventBg6, EventBg7, Between } from '$lib';
 </script>
 
-<div class="mx-20 mb-10">
+<div class="mx-10 mb-10">
 	<div class="mt-20 text-3xl font-medium leading-10 text-white max-md:mt-10 max-md:max-w-full">
 		Upcoming Events
 	</div>
