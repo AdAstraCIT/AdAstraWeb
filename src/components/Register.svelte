@@ -27,32 +27,3 @@
 		</div>
 	</section>
 </main>
-
-<style>
-	@media (max-width: 768px) {
-		.max-md\:px-5 {
-			padding-left: 1.25rem;
-			padding-right: 1.25rem;
-		}
-
-		.max-md\:max-w-full {
-			max-width: 100%;
-		}
-
-		.max-md\:flex-col {
-			flex-direction: column;
-		}
-
-		.max-md\:ml-0 {
-			margin-left: 0;
-		}
-
-		.max-md\:mt-10 {
-			margin-top: 2.5rem;
-		}
-
-		.max-md\:gap-0 {
-			gap: 0;
-		}
-	}
-</style>

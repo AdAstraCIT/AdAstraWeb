@@ -3,11 +3,11 @@
 </script>
 
 <div
-	class="self-stretch mt-9 w-full border border-solid bg-neutral-800 border-neutral-800 min-h-[1px] max-md:max-w-full"
+	class="self-stretch mt-9  border border-solid bg-neutral-800 border-neutral-800 min-h-[1px] max-md:max-w-full w-auto"
 ></div>
 
 <div id="logo_part" class="mt-1">
-	<img id="logo" src={Logo} alt="" class="h-16 w-auto mt-24 mb-24 block mx-auto" />
+	<img id="logo" src={Logo} alt="" class="h-16 w-1/2 mt-24 mb-24 block mx-auto" />
 </div>
 <div
 	class="shrink-0 mt-20 max-w-full h-px border border-solid bg-neutral-800 border-neutral-800 w-[1116px] max-md:mt-10 mx-auto"
