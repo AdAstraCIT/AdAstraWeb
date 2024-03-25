@@ -3,14 +3,18 @@
 	import { Background, Infinity } from './components.js';
 </script>
 
-<div class="flex justify-center items-center h-screen">
-	<img class="max-sm:w-64 md:w-128 mx-auto self-center" src={Logo} alt="ad_astra_Logo" />
+<div class="relative w-full flex justify-center items-center h-screen overflow-hidden">
+	<img class="w-64 md:w-96 duration-300" src={Logo} alt="ad_astra_Logo" />
 	<Background />
 </div>
-<div class="mx-20 flex justify-between items-center mt-64 max-md:mt-10 max-md:max-w-full">
-	<div class="flex gap-5 max-md:flex-col max-md:gap-0 w-full max-md:ml-0 max-md:w-full">
-		<div class="flex flex-col w-6/12 max-md:mt-10 max-md:max-w-full">
-			<h2 class="text-4xl font-medium leading-10 text-white max-md:max-w-full">
+
+<section class="w-full h-64"></section>
+
+
+<div class="px-10 md:px-20 flex w-full h-full">
+	<div class="flex gap-10 w-full h-full items-center justify-center">
+		<div class="flex flex-col w-full lg:w-3/5">
+			<h2 class="text-4xl font-medium leading-10 text-white">
 				What is Ad Astra?
 			</h2>
 			<p class="mt-10 text-xl leading-8 text-white text-opacity-60 max-md:max-w-full">
@@ -20,18 +24,18 @@
 				use in a type specimen book. It usually begins with:
 			</p>
 		</div>
-		<div class="hidden md:block">
+		<div class="w-2/5 hidden lg:block">
 			<Infinity />
 		</div>
 	</div>
 </div>
 
-<section class="max-w-full mx-20">
-	<div class="flex gap-5 flex-col md:flex-row md:gap-0">
-		<aside class="flex flex-col w-full md:w-6/12">
-			<header
-				class="z-10 flex flex-col self-stretch my-auto text-xl leading-8 text-white text-opacity-60 mt-10 md:mt-0"
-			>
+<section class="w-full h-64"></section>
+
+<section class="w-full px-10 md:px-20">
+	<div class="flex gap-5 flex-col md:flex-row items-center justify-center md:gap-0">
+		<div class="w-full">
+			<div class="z-10 flex flex-col self-stretch my-auto text-xl leading-8 text-white text-opacity-60 mt-10 md:mt-0">
 				<h1 class="text-4xl font-medium leading-10 text-white">What we do?</h1>
 				<p class="mt-10">
 					Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
@@ -44,10 +48,10 @@
 					<li>Drones</li>
 					<li>Programming</li>
 				</ul>
-			</header>
-		</aside>
-		<aside class="hidden md:block flex-col w-full md:w-6/12 md:ml-5">
-			<img loading="lazy" src={something} alt="" class="grow w-full aspect-[0.98]" />
-		</aside>
+			</div>
+		</div>
+		<div class="hidden lg:block flex-col w-full md:ml-5 items-center justify-center overflow-hidden" style="background-image: linear-gradient(to right, black, transparent);">
+			<img loading="lazy" src={something} alt="" class="w-full aspect-[0.98] scale-[210%]" />
+		</div>
 	</div>
 </section>

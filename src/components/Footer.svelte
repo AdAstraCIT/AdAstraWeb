@@ -3,47 +3,40 @@
 </script>
 
 <div
-	class="self-stretch mt-9  border border-solid bg-neutral-800 border-neutral-800 min-h-[1px] max-md:max-w-full w-auto"
+	class="self-stretch mt-9 border border-solid bg-neutral-800 border-neutral-800 min-h-[1px] max-md:max-w-full w-auto"
 ></div>
 
 <div id="logo_part" class="mt-1">
 	<img id="logo" src={Logo} alt="" class="h-16 w-1/2 mt-24 mb-24 block mx-auto" />
 </div>
-<div
-	class="shrink-0 mt-20 max-w-full h-px border border-solid bg-neutral-800 border-neutral-800 w-[1116px] max-md:mt-10 mx-auto"
-></div>
 
 <div
+	class="self-stretch mt-9 border border-solid bg-neutral-800 border-neutral-800 min-h-[1px] max-md:max-w-full w-auto"
+></div>
+<div
 	id="footbar"
-	class="flex flex-row justify-between items-center bg-zinc-900 border-neutral-800 text-white p-2 mt-10 mb-36 mx-24 rounded-full"
+	class="mx-5 h-16 flex flex-row justify-between items-center bg-zinc-900 border-neutral-800 text-white p-2 mt-10 mb-10 md:mx-24 rounded-full"
 >
-	<div class="flex items-center space-x-4">
-		<a
-			href="https://twitter.com/adastracit"
-			target="_blank"
-			rel="noopener noreferrer"
-			class="p-1 rounded-full"><img src={twitter} alt="Twitter" /></a
+	<div class="w-full flex items-center justify-between gap-5 px-5">
+		<div class="w-full flex gap-5">
+			<a
+				href="https://twitter.com/adastracit"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="p-1 rounded-full"><img src={twitter} alt="Twitter" /></a
+			>
+			<a
+				href="https://www.linkedin.com/company/adastracit/"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="p-1 rounded-full"><img src={linkedin} alt="LinkedIn" /></a
 		>
-		<a
-			href="https://www.linkedin.com/company/adastracit/"
-			target="_blank"
-			rel="noopener noreferrer"
-			class="p-1 rounded-full"><img src={linkedin} alt="LinkedIn" /></a
-		>
-		<div class="hidden md:flex items-center space-x-4">
-			<a class="text-sm inline-flex" href="mailto:adastra@cambridge.edu.in">
-				<img class="text-white mx-3" src={email} alt="Email icon" />
-				<span class="text-white">adastra@cambridge.edu.in</span>
-			</a>
-			<a href="tel:+910000000000" class="inline-flex">
-				<img src={phone} alt="Phone icon" />
-				<span class="text-white mx-3">+91 00000 00000</span>
-			</a>
 		</div>
+		<a class=" w-full md:w-[250px] flex justify-center" href="mailto:adastra@cambridge.edu.in">
+			<button class="w-full bg-[#CAFF33] py-3 md:py-4 rounded-full flex items-center justify-center gap-2 md:px-10 px-5">
+				<img class="w-[22px] h-[17px]" src={email} alt="Email icon" />
+				<span class="text-black w-full text-sm">adastra@cambridge.edu.in</span>
+			</button>
+		</a>
 	</div>
-	<ul class="flex items-center ms-auto space-x-2 mr-4">
-		<li><a href="/Privacy" class="px-1 py-2 hover:text-gray-300">Privacy Policy</a></li>
-		<li><span class="text-gray-400 px-2">|</span></li>
-		<li><a href="/tos" class="px-1 py-2 hover:text-gray-300">Terms of Service</a></li>
-	</ul>
 </div>

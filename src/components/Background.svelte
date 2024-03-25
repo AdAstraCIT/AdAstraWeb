@@ -2,10 +2,10 @@
 	import { back1 } from '$lib';
 </script>
 
-<div class="flex justify-center items-center h-screen">
+<div class="absolute top-0 w-full h-full flex items-center justify-center" style="background-image: linear-gradient(to top, black, transparent, transparent);">
 	<img
 		src={back1}
-		class="absolute top-0 left-0 w-full h-full object-cover z-[-1] self-center mx-auto"
+		class="w-full h-[70%] object-contain scale-[300%] z-[-1] duration-300"
 		alt="background"
-	/>
+/>
 </div>

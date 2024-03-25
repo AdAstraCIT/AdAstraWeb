@@ -9,14 +9,14 @@
 </script>
 
 <nav
-	class="z-50 flex items-center justify-between px-10 backdrop-blur-sm backdrop-brightness-75 backdrop-saturate-150 shadow-lg mt-6 rounded-full w-11/12 fixed left-1/2 transform -translate-x-1/2 h-12"
+	class="z-50 flex items-center justify-between px-10 backdrop-blur-sm backdrop-brightness-75 backdrop-saturate-150 shadow-lg mt-6 rounded-full w-11/12 fixed left-1/2 transform -translate-x-1/2 h-16"
 >
 	<!-- Logo -->
-<a href="/" class="flex md:justify-start justify-center w-full md:w-auto">
+<a href="/" class="flex justify-start w-full md:w-auto">
     <img alt="AdAstraLogo" class="h-5 w-auto" src={Logo} />
 </a>
 	<!-- Navigation items -->
-	<div class="hidden sm:flex items-center space-x-2">
+	<div class="hidden md:flex items-center space-x-2">
 		<ul class="flex items-center space-x-2">
 			<li>
 				<a href="/about" class="px-1 py-2">About Us</a>
@@ -28,7 +28,7 @@
 		</ul>
 	</div>
 	<!-- Toggle button for small screens -->
-	<button on:click={toggleNav} class="sm:hidden">
+	<button on:click={toggleNav} class="block md:hidden">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			fill="none"

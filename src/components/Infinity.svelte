@@ -3,9 +3,9 @@
         id="svga"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
-        width="100%"
-        height="100%"
-        viewBox="0 0 594 215"
+        viewBox="0 0 680 310"
+		width="100%"
+		height="100%"
     >
 		<g class="st2">
 			<path
@@ -55,13 +55,13 @@
 
 	.st2 {
 		fill: none;
-		stroke: #cccccc;
+		stroke: #CAFF33;
 		stroke-width: 6;
 	}
 	.sd1 {
 		fill: none;
 		stroke: #000000;
-		stroke-width: 6;
+		stroke-width: 8;
 		stroke-linecap: round;
 	}
 	.circ {
