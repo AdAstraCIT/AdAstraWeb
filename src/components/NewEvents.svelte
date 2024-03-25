@@ -2,8 +2,8 @@
 	import { EventBg5, EventBg6, EventBg7, Between } from '$lib';
 </script>
 
-<div class="mx-10 mb-10">
-	<div class="mt-20 text-3xl font-medium leading-10 text-white max-md:mt-10 max-md:max-w-full">
+<div class="m-10">
+	<div class="mt-20 text-3xl font-medium leading-10 text-white md:w-full">
 		Upcoming Events
 	</div>
 	<div class="flex flex-col md:flex-row justify-center items-center mt-5 gap-10">
