@@ -21,8 +21,8 @@
 			</article>
 		</div>
 		<button
-				class="justify-center self-stretch px-8 py-3 my-auto w-full h-full md:w-1/4 text-lg font-bold leading-7 whitespace-nowrap bg-[#CAFF33] rounded-[82px] text-zinc-900 max-md:px-5 mt-10"
-				type="button">Register</button
-			>
+			class="justify-center self-stretch px-8 py-3 my-auto w-full h-full md:w-1/4 text-lg font-bold leading-7 whitespace-nowrap bg-[#CAFF33] rounded-[82px] text-zinc-900 max-md:px-5 mt-10"
+			type="button">Register</button
+		>
 	</section>
 </main>

@@ -1,12 +1,12 @@
 <div class="svg-main">
-    <svg
-        id="svga"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        viewBox="0 0 680 310"
+	<svg
+		id="svga"
+		xmlns="http://www.w3.org/2000/svg"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		viewBox="0 0 680 310"
 		width="100%"
 		height="100%"
-    >
+	>
 		<g class="st2">
 			<path
 				id="loop-normal"
@@ -55,7 +55,7 @@
 
 	.st2 {
 		fill: none;
-		stroke: #CAFF33;
+		stroke: #caff33;
 		stroke-width: 6;
 	}
 	.sd1 {

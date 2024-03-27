@@ -12,9 +12,9 @@
 	class="z-50 flex items-center justify-between px-10 backdrop-blur-sm backdrop-brightness-75 backdrop-saturate-150 shadow-lg mt-6 rounded-full w-11/12 fixed left-1/2 transform -translate-x-1/2 h-16"
 >
 	<!-- Logo -->
-<a href="/" class="flex justify-start w-full md:w-auto">
-    <img alt="AdAstraLogo" class="h-5 w-auto" src={Logo} />
-</a>
+	<a href="/" class="flex justify-start w-full md:w-auto">
+		<img alt="AdAstraLogo" class="h-5 w-auto" src={Logo} />
+	</a>
 	<!-- Navigation items -->
 	<div class="hidden md:flex items-center space-x-2">
 		<ul class="flex items-center space-x-2">
