@@ -1,1 +1,8 @@
-<p class="text-white ">Home Page</p>
+<script>
+	import { NewEvents, PastEvents, Register, HomePage } from '../components/components.js';
+</script>
+
+<HomePage />
+<NewEvents />
+<PastEvents />
+<Register />
